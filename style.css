@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 70px;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    background: rgb(39,212,214);
+background: linear-gradient(0deg, rgba(39,212,214,1) 5%, rgba(101,77,26,1) 100%);
+}
+.container
+{
+    display: flex;
+    align-items: center;
+}
+.day
+{
+    margin: 0px 70px;
+    color: rgba(177, 5, 28);
+    font-size: 100px;
+}
